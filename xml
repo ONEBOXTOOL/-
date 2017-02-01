@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="top">
+
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:hint="输入网址"
+			android:id="@+id/mainEditText1"
+			android:inputType="textUri"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="进入"
+			android:id="@+id/mainButton1"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="刷新"
+			android:id="@+id/mainButton2"
+			android:layout_marginTop="5dp"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="放大"
+			android:layout_marginLeft="14dp"
+			android:id="@+id/mainButton3"
+			android:layout_marginTop="5dp"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="缩小"
+			android:layout_marginLeft="14dp"
+			android:id="@+id/mainButton4"
+			android:layout_marginTop="5dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<WebView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/mainWebView1"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
